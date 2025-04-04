@@ -258,7 +258,7 @@ spec:
   selector:
     matchLabels:
       app: ts-basic-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -276,7 +276,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 15680
@@ -328,7 +328,7 @@ spec:
   selector:
     matchLabels:
       app: ts-config-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -346,7 +346,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 15679
@@ -363,7 +363,7 @@ spec:
   selector:
     matchLabels:
       app: ts-consign-price-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -381,7 +381,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 16110
@@ -398,7 +398,7 @@ spec:
   selector:
     matchLabels:
       app: ts-consign-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -416,7 +416,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 16111
@@ -538,7 +538,7 @@ spec:
   selector:
     matchLabels:
       app: ts-food-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -556,7 +556,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 18856
@@ -573,7 +573,7 @@ spec:
   selector:
     matchLabels:
       app: ts-inside-payment-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -591,7 +591,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 18673
@@ -643,7 +643,7 @@ spec:
   selector:
     matchLabels:
       app: ts-news-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -713,7 +713,7 @@ spec:
   selector:
     matchLabels:
       app: ts-order-other-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -731,7 +731,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 12032
@@ -748,7 +748,7 @@ spec:
   selector:
     matchLabels:
       app: ts-order-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -766,7 +766,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 12031
@@ -783,7 +783,7 @@ spec:
   selector:
     matchLabels:
       app: ts-payment-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -801,7 +801,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 19001
@@ -818,7 +818,7 @@ spec:
   selector:
     matchLabels:
       app: ts-preserve-other-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -836,7 +836,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 14569
@@ -853,7 +853,7 @@ spec:
   selector:
     matchLabels:
       app: ts-preserve-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -871,7 +871,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 14568
@@ -888,7 +888,7 @@ spec:
   selector:
     matchLabels:
       app: ts-price-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -906,7 +906,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 16579
@@ -923,7 +923,7 @@ spec:
   selector:
     matchLabels:
       app: ts-rebook-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -941,7 +941,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 18886
@@ -958,7 +958,7 @@ spec:
   selector:
     matchLabels:
       app: ts-route-plan-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -993,7 +993,7 @@ spec:
   selector:
     matchLabels:
       app: ts-route-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -1011,7 +1011,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 11178
@@ -1028,7 +1028,7 @@ spec:
   selector:
     matchLabels:
       app: ts-seat-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -1046,7 +1046,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 18898
@@ -1133,7 +1133,7 @@ spec:
   selector:
     matchLabels:
       app: ts-station-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -1151,7 +1151,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 12345
@@ -1203,7 +1203,7 @@ spec:
   selector:
     matchLabels:
       app: ts-ticketinfo-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -1221,7 +1221,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 15681
@@ -1238,7 +1238,7 @@ spec:
   selector:
     matchLabels:
       app: ts-train-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -1273,7 +1273,7 @@ spec:
   selector:
     matchLabels:
       app: ts-travel2-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -1291,7 +1291,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 16346
@@ -1343,7 +1343,7 @@ spec:
   selector:
     matchLabels:
       app: ts-travel-service
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
@@ -1361,7 +1361,7 @@ spec:
             memory: 160Mi
           limits:
             cpu: 200m
-            memory: 500Mi
+            memory: 600Mi
         readinessProbe:
           tcpSocket:
             port: 12346
